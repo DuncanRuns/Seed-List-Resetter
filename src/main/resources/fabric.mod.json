@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "seedlistresetter",
+  "version": "${version}",
+  "name": "Seed List Resetter",
+  "description": "Like AutoReset but for a seed list",
+  "authors": [
+    "DuncanRuns"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/seedlistresetter/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.duncanruns.seedlistresetter.SeedListResetter"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "seedlistresetter.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.0"
+  },
+  "conflicts": {
+    "autoreset": "*"
+  }
+}

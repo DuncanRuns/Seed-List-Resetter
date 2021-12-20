@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "me.duncanruns.seedlistresetter.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "CreateWorldScreenAccess",
+    "MoreOptionsDialogAccess",
+    "OptionsScreenMixin",
+    "TitleScreenMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
